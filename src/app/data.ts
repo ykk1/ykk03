@@ -1,6 +1,6 @@
-import { Navs } from "./list";
+import { Niavs } from "./list";
 
-export const NAVS: Navs[] = [
+export const NIAVS: Niavs[] = [
     {
         name: 'Dashboard', url: 'http://www.baidu.com', cs: 0, active: true
     },
