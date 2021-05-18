@@ -1,7 +1,7 @@
 import { guardedExpression } from '@angular/compiler/src/render3/util';
 import { Component } from '@angular/core';
-import { NAVS } from './data';
-import { Navs } from './list';
+import { NIAVS } from './data';
+import { Niavs } from './list';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { Navs } from './list';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  navs = NAVS;
+  niavs = NIAVS;
 
   shouldShow = false;
 
@@ -30,9 +30,9 @@ export class AppComponent {
     return this.score / 10;
   }
 
-  checknav: Navs | null = null;
+  checknav: Niavs | null = null;
 
-  oncss(n: Navs) {
+  oncss(n: Niavs) {
     this.checknav = n;
     if (this.checknav.active) {
       n.active = false;
