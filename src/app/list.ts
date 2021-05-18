@@ -1,4 +1,4 @@
-export class Navs {
+export class Niavs {
     name!: string;
     url!: string;
     cs!: number;
